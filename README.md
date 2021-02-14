@@ -1,6 +1,6 @@
 ## About The Project
 
-This is the backend of [File system](https://github.com/yhl234/react-file-system) project. The goals of this server is formatting sample date to frontend friendly structure
+This is the backend of [File system](https://github.com/yhl234/react-file-system) project. The goals of this server is formatting sample date to a frontend friendly structure
 
 ### Built With
 
@@ -10,7 +10,7 @@ This is the backend of [File system](https://github.com/yhl234/react-file-system
 
 ### Sample API call
 
-![screenshot](https://raw.githubusercontent.com/yhl234/react-file-system-api/master/images/screenshot.gif)
+![screenshot](https://raw.githubusercontent.com/yhl234/react-file-system-api/master/images/screenshot.png)
 
 ## Sample data
 
