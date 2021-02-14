@@ -18,13 +18,14 @@ exports.getData = async (req, res, next) => {
         acc.push(children);
         return acc;
       }, []);
-    console.log(pathArray);
-    // remove first root
+
+    // remove first 'root'
     pathArray.shift();
+
     // get last children
     // const result = root.children.home.children.myname.children;
     const result = _.get(root, pathArray, {});
-    console.log(result);
+
     // convert last children to array
     const name = Object.keys(result);
     const childrenArray = name.map(n => {
