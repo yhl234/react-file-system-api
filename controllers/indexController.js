@@ -31,7 +31,8 @@ exports.getData = async (req, res, next) => {
     const childrenArray = name.map(n => {
       const container = {};
       const { type } = result[n];
-      container.name = n;
+      // default .txt for files don't have file extinction
+      container.name = !n.includes('.') && type === 'file' ? `${n}.txt` : n;
       container.type = type;
       return container;
     });
